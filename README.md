@@ -15,7 +15,7 @@ Lastly, the method's performance is evaluated by considering the true positive r
 </div>
 
 # Run scDeepJointClust
-'''
+```
 #Construct a model.
 celltypeModel = buildModel(numInputCols,numOutputsCellType,numOutputsRorNR);
 
@@ -27,5 +27,5 @@ representationLayterOutput = representationLayerModel.predict(XTensor);
 
 kmeans = KMeans(n_clusters=curK, random_state=0).fit(representationLayterOutput);
 
-'''
+```
 
