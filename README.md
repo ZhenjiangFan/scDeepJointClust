@@ -28,7 +28,7 @@ representationLayterOutput = representationLayerModel.predict(XTensor);
 kmeans = KMeans(n_clusters=curK, random_state=0).fit(representationLayterOutput);
 
 ```
-
+<!--
 # Acknowledgement and References
 
 #### :trophy: Some components of this project come from the follwing projects:
@@ -37,7 +37,7 @@ kmeans = KMeans(n_clusters=curK, random_state=0).fit(representationLayterOutput)
 :star: The FDR filter function is from [DeepKnockoffs](https://github.com/msesia/deepknockoffs).\
 :star: The Python implementation of DG algorithm is based on its Java version from [Tetrad](https://www.ccd.pitt.edu).\
 :star: The implementation of the PC algorithm used in this project is from [pcalg](https://github.com/keiichishima/pcalg).
-
+-->
 # Contact
 :email: Please let us know if you have any questions, bug reports, or feedback via the following email:
 <p align="center">
