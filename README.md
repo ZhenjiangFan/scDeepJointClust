@@ -14,4 +14,18 @@ Lastly, the method's performance is evaluated by considering the true positive r
     <div style="width: 200px; text-align: center;">Figrue. 1. An overview of scDeepJointClust.</div>
 </div>
 
+# Run scDeepJointClust
+'''
+#Construct a model.
+celltypeModel = buildModel(numInputCols,numOutputsCellType,numOutputsRorNR);
+
+#Train the model.
+celltypeModel = trainPhase1Model(celltypeModel,trainDataset,Configurations.numOfEpochs,Configurations.batchSize,Configurations.celltypeLossWeight, Configurations.RorNRLossWeight);
+    
+representationLayerModel = tf.keras.models.Model(inputs=celltypeModel.input,outputs=celltypeModel.get_layer("hiddenLayer3").output);
+representationLayterOutput = representationLayerModel.predict(XTensor);
+
+kmeans = KMeans(n_clusters=curK, random_state=0).fit(representationLayterOutput);
+
+'''
 
