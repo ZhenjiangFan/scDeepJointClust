@@ -15,7 +15,7 @@ Lastly, the performance of the method is evaluated by considering the true posit
     text-align: center;
 }
 -->
-<div style="display: flex; justify-content: center;">
+<div style="display: table; margin-right: auto; margin-left: auto;">
     <img src="Images/Fig1.png" height="265px" width="605px" />
     <div style="width: 200px; text-align: center;">An overview of scDeepJointClust.</div>
 </div>
