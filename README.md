@@ -9,14 +9,15 @@ Lastly, the performance of the method is evaluated by considering the true posit
 <!-- 
 ![An overview of scDeepJointClust.](Images/Fig1.png "An overview of scDeepJointClust.") 
 <img src="Images/Fig1.png" style="width:605px;height:265px;"> 
--->
+
 .caption {
     width: 200px;
     text-align: center;
 }
+-->
 <div style="align: left; text-align:center;">
     <img src="white.jpg" height="265px" width="605px" />
-    <div class="caption">An overview of scDeepJointClust.</div>
+    <div class="caption" width: 200px text-align: center>An overview of scDeepJointClust.</div>
 </div>
 
 
