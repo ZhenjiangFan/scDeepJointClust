@@ -1,4 +1,17 @@
-# scDeepJointClust
+<h1 align="center">scDeepJointClust: Deep neural network learning biological condition information refines gene-expression-based cell subtypes </h1>
+
+<div align="center" style="line-height: 1;">
+  <a href="https://github.com/ZhenjiangFan/scDeepJointClust/blob/main/LICENSE" style="margin: 2px;">
+    <img alt="Code License" src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+  <a href="https://github.com/ZhenjiangFan/scDeepJointClust/blob/main/LICENSE" style="margin: 2px;">
+    <img alt="Model License" src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+</div>
+
+<p align="center">
+  <a href="https://academic.oup.com/bib/article/25/1/bbad512/7517681"><b>Paper Link</b>👁️</a>
+</p>
 
 
 The proposed method proceeds in four steps. 
